@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>GAME TIME...!!</h1>
+    <button id="start" onclick="startGame()">START</button>
+    <div id="gameArea" class="gameArea">
+        <p>Guess a number in range (0-100) and let me find it out !!</p>
+        <p>hit me once you're done</p>
+        <button style="background: none; font-size: 4em;" onclick="displayGame(0, 100)">👊</button>     
+        <div class="displayContent" id="displayContent">
+            <p>is this number.. <p id="number"></p></p>
+            <button onclick="smaller()">smaller</button> 
+            <button onclick="same()">same</button> 
+            <button onclick="larger()">larger</button>
+        </div><br>
+        <button id="restart" onclick="window.location.reload()">RESTART</button>
+    </div>
+    </center>
+</body>
+<script src="script.js"></script>
+</html>

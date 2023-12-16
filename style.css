@@ -1,0 +1,44 @@
+body{
+    background: url(https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148954968.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'snap itc';
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+    position: relative;
+}
+
+button{
+    background-color: red;
+    font-size: 2em;
+    font-family: 'showcard gothic';
+    align-items: center;
+}
+
+#restart{
+    display: none;
+    background-color: red;
+    font-size: 2em;
+    font-family: 'showcard gothic';
+    align-items: center;
+}
+
+.gameArea{
+    display: none;
+}
+
+.displayContent{
+    display: none;
+}
+
+p{
+    color: white;
+    font-family: 'jokerman';
+    font-size: 1.5em;
+}
